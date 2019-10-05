@@ -1,4 +1,4 @@
-package com.training.bean;
+	package com.training.bean;
 
 /**
  * 

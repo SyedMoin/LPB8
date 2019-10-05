@@ -7,8 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 /**
- * 
- * @author Naveen
  * @see this class will help when you want to do custom business logic, since  in POM we dont do 
  * 			dynamic elements available, when you want to iterate the table/accordion etc 
  * @since 17-Dec-2018 
@@ -19,6 +17,7 @@ public class GenericMethods {
 	public GenericMethods(WebDriver driver){
 		this.driver = driver;
 	}
+}
 	
 	/**
 	 * 
@@ -29,6 +28,7 @@ public class GenericMethods {
 	 * @return  WebElement
 	 * this method shall give provided it has single enty in the DOM
 	 */
+	/*
 	public WebElement getElement(String locator, String type){
 		WebElement element  = null;
 		type = type.toLowerCase();
@@ -81,4 +81,4 @@ public class GenericMethods {
 	public boolean checkSingleEntry(String locator, String type){
 		return getElementsAsList(locator, type).size() ==1;
 	}
-}
+}*/
