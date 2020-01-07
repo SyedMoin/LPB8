@@ -39,7 +39,7 @@ public class LoginExcelTest {
 		loginPOM = new LoginPOM(driver);
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver);
-		// open the browser
+		// open the browser this a comment
 		driver.get(baseUrl);
 	}
 
