@@ -23,7 +23,7 @@ public class retailTest {
 	private ProductPagePOM loginPOM;
 	private static Properties properties;
 	private ScreenShot screenShot;
-
+	// comment before class
 	@BeforeClass
 	public static void setUpBeforeClass() throws IOException {
 		properties = new Properties();
@@ -45,6 +45,7 @@ public class retailTest {
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
 		//driver.quit();
+		
 	}
 	@Test
 	public void validLoginTest() throws InterruptedException  {
