@@ -77,7 +77,7 @@ public class RTTC_040 {
 		TSDeleteCategory.getsuccessTextofDelete();
 		String expectedMessage = "Success: You have modified categories!";
 		String actualSuccessMessage = TSDeleteCategory.getsuccessTextofDelete();
-		System.out.println("Testing Actual Message " +actualSuccessMessage);
+		System.out.println("Testing Actual Message is commited" +actualSuccessMessage);
 		System.out.println("Testing Expected Message " + expectedMessage);
 		Boolean res= actualSuccessMessage.contains(expectedMessage);
 		System.out.println("Result "+res);
